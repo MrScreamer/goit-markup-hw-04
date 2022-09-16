@@ -313,6 +313,12 @@ img {
 	padding: 0;
 }
 
-img {
+img,
+svg,
+a {
+	display: block;
+}
+
+use {
 	display: block;
 }
