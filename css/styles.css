@@ -1,0 +1,367 @@
+/* general */
+:root {
+--blue: #2196F3;
+--main-black: #212121;
+--main-grey: #757575;
+--main-white: #FFFFFF;
+
+--grey-bg: #2F303A;
+
+--raleway: 'Raleway', sans-serif;
+--roboto: 'Roboto', sans-serif;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: inherit;
+    color: var(--main-black);
+    margin-bottom: 50px;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.d-flex{
+    display: flex;
+}
+
+/* Header */
+
+.nav {
+    display: flex;
+}
+
+.logo {
+    font-family: var(--raleway);
+    font-weight: 700;
+    font-size: 26px;    
+    line-height: 1.19;
+    letter-spacing: inherit;
+
+}
+
+.logo-header {
+    padding-top: 24px;
+    padding-bottom: 25px;
+}
+
+.logo-blue {
+    color: var(--blue);
+    margin-right: 93px;
+}
+
+.logo-black {
+    color: var(--main-black);
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    padding: 32px 0;
+}
+
+.nav-list > li:not(:last-child) {
+    margin-right: 50px;
+}
+
+.nav-list-link {
+    color: var(--main-black);
+}
+.selected {
+    color: var(--blue);
+}
+
+.nav-list-link:hover,
+.nav-list-link:focus {
+    color: var(--blue);
+    cursor: pointer;
+}
+
+.header-contacts {
+    font-weight: 500;
+    line-height: inherit;
+    letter-spacing: 0.02em;
+}
+
+.contact-list {
+    align-items: center;
+    margin-left: auto;
+        padding: 32px 0;
+}
+
+.contact-list-item:not(:last-child) {
+    margin-right: 50px;
+}
+
+
+.contact-list-item > a {
+    color: var(--main-grey);
+}
+
+.contact-list-item>a:hover,
+.contact-list-item>a:focus {
+    color: var(--blue);
+    cursor: pointer;
+}
+
+.nav > ul > li {
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    font-size: inherit;
+}
+
+/* MAIN */
+
+/* Hero section */
+
+.hero {
+    background: var(--grey-bg);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 200px 0;
+}
+
+.hero-title {
+    font-weight: 900;
+    width: 696px;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--main-white);
+    margin-bottom: 30px;
+
+}
+
+.hero-button {
+background-color: var(--blue);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border: 0;
+width: 216px;
+height: 50px;
+border-radius: 4px;
+color: var(--main-white);
+font-weight: 700;
+font-size: 16px;
+line-height: 1.87;
+letter-spacing: 0.06em;
+}
+
+/* descr section */
+
+.descr-list-item > h3 {
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: var(--main-black);
+    margin-bottom: 10px;
+}
+
+.descr-list-item > p {
+    width: 270px;
+    line-height: 1.71; 
+    color: var(--main-grey);
+}
+
+.descr-list-item:not(:last-child) {
+    margin-right: 30px;
+}
+
+/* doing section */
+
+.doing-list > li:not(:last-child) {
+    margin-right: 30px;
+}
+
+.doing-list {
+    padding-bottom: 94px;
+}
+
+.doing-list>li {
+    height: 294px;
+}
+
+/* team section */
+
+.team {
+    background: #F5F4FA;
+    width: 100%;
+}
+
+.team-list {
+    display: flex;
+    justify-content: center;
+    /* margin-left: -15px; */
+    /* margin-right: -15px; */
+}
+
+.team-item {
+    background-color: var(--main-white) ;
+    width: 270px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 0px 0px 4px 4px;
+}
+
+.team-item:not(:last-child){
+    margin-right: 30px;
+}
+
+.team-item > h3 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    color: var(--main-black);
+    margin: 30px 0 10px;
+}
+
+.team-item > p {
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-grey);
+    padding-bottom: 30px;
+}
+
+/* Footer */
+
+.logo-white {
+    color: var(--main-white);
+}
+
+.footer-logo {
+    margin: 0 0 20px;
+}
+
+.footer-bg {
+    background: var(--grey-bg);
+    padding: 60px 0;
+}
+
+.footer {
+    flex-direction: column;
+}
+
+.footer-list-item:not(:last-child) {
+    margin-bottom: 9px;
+}
+
+.footer-list-item > a {
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    font-style: normal;
+}
+
+.color-white {
+    color: var(--main-white);
+}
+
+.color-grey {
+    color: var(--main-grey)
+}
+
+.color-grey:focus,
+.color-grey:hover {
+    color: var(--blue);
+    cursor: pointer;
+}
+
+/* portfolio */
+
+.line {
+   border-top: 1px solid #ECECEC;
+}
+
+.portfolio-menu {
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.prtf-menu-list-item:not(:last-child) {
+    margin-right: 8px;
+}
+
+.prtf-button{
+    background: #F5F4FA;
+    border-radius: 4px;
+    border: 0;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    color: var(--main-black);
+    font-family: inherit;
+}
+
+.all-btn-padding {
+    padding: 6px 25px;
+}
+
+.rest-btn-padding {
+    padding: 6px 22px;
+}
+
+.prtf-button:hover,
+.prtf-button:focus {
+    color: var(--main-white);
+    background: var(--blue);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    cursor: pointer;
+}
+
+.prtf-item-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: -15px;
+}
+
+.prtf-list-item {
+
+    width: 370px;  
+    margin: 15px;
+}
+
+.prtf-list-item:focus,
+.prtf-list-item:hover {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+.prtf-item-border {
+border: 1px solid #EEEEEE;
+}
+
+.prtf-item-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--main-black);
+    padding: 20px 24px 4px;
+}
+
+.prtf-item-text {
+    font-size: 16px;
+    line-height: 1.87;
+    padding: 0 24px 20px;
+
+    color: var(--main-grey);
+
+}
