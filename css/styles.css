@@ -177,6 +177,7 @@ width: 100%;
     /* max-width: 1600px; */
     margin: 0 auto;
     background-size: cover;
+    background-position: center;
 }
 
 .hero-title {
@@ -223,7 +224,7 @@ letter-spacing: 0.06em;
 }
 
 .antena {
-    width: 65.32px;
+    width: 70px;
     height: 70px;
 }
 
@@ -423,7 +424,7 @@ background-color: var(--blue) ;
 }
 
 .footer-left {
-    margin-right: 70px;
+    margin-right: 95px;
 }
 
 .footer-right {
