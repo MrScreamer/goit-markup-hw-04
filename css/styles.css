@@ -529,14 +529,17 @@ border: 1px solid #EEEEEE;
     line-height: 2;
     letter-spacing: 0.06em;
     color: var(--main-black);
-    padding: 20px 24px 4px;
+    margin-bottom: 4px;
 }
 
 .prtf-item-text {
     font-size: 16px;
     line-height: 1.87;
-    padding: 0 24px 20px;
 
     color: var(--main-grey);
 
+}
+
+.prf-item-bottom {
+    padding: 20px 24px;
 }
